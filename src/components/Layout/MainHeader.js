@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 // import { toggleAction } from '../../store';
 import CartButton from '../Cart/CartButton';
 import classes from './MainHeader.module.css';
-import {cartToggleHandler} from '../../store/index'
+import {cartToggleHandler} from '../../store/toggleslicer'
 
 const MainHeader = (props) => {
 
